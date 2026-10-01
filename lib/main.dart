@@ -50,10 +50,6 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _SearchAndFilterState extends State<HomePage> {
-  // Arama durumu yönetimi
-}
-
 class _HomePageState extends State<HomePage> {
   String searchQuery = "";
   final TextEditingController _searchController = TextEditingController();
